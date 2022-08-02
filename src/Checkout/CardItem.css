@@ -1,0 +1,33 @@
+.item{
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 15px 0 15px 0;
+    background-color: rgba(248, 243, 243, 0.556);
+}
+
+.item .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .item .btn{
+        width: 100px;
+        margin: auto;
+    }
+    .item .prod-price{
+        margin-top: -5px;
+    }
+}
+
+.item .btn{
+    border: solid 1px;
+    color:rgb(205, 29, 29)
+}
+
+.item .btn:hover{
+    color:white;
+    background-color:rgb(205, 29, 29)
+}

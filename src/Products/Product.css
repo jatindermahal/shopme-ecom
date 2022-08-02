@@ -1,0 +1,42 @@
+.product{
+    max-width: 400px;
+    min-width: 200px;
+    margin: 10px;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.product .card-text{
+    margin-bottom: 0;
+}
+
+.product .prod-info{
+    height:90px;
+}
+
+.product .prod-price{
+    margin-top: 5px;
+}
+
+.product img{
+    margin-bottom: 20px;
+    min-height: 250px;
+    max-height: 450px;
+}
+
+.product .card-title{
+    text-overflow: ellipsis;
+}
+
+.product button, .product button:focus{
+    margin-top: 10px;
+    color: rgb(205, 29, 29);
+    border: solid 1px rgb(205, 29, 29);
+    font-weight: 500;
+}
+
+.product button:hover{
+    margin-top: 10px;
+    background-color: rgb(205, 29, 29);
+    color: white;
+}

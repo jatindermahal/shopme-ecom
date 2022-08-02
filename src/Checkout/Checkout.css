@@ -1,0 +1,25 @@
+.cart-details-head{
+    margin: 1.5em 0 2em 0;
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
+
+    .subtotal {
+        position: fixed;
+        top:220px;
+        right:0px;
+        /* overflow: hidden; */
+       }
+}
+
+.empty-cart{
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width:576px){
+    .cart-details{
+        display: none;
+    }
+}

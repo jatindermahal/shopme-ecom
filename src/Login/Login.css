@@ -1,0 +1,89 @@
+.login .login-logo{
+    margin: 20px 0 20px 0;
+    object-fit: contain;
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.login #website-name{
+    font-size: 32px;
+    color: rgba(110, 110, 231, 0.937);
+    margin: 0 10px 0 10px;
+}
+
+.login a{
+    text-decoration:none;
+}
+
+.login .login-box{
+    width: 368px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login-box form{
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.login-box input{
+    border: solid 1px rgb(185, 184, 184)
+}
+
+.login .login-box > h1{
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.login-sign-in, .login-sign-in:hover, .login-sign-in:active, .login-sign-in:focus{
+    background-color: green;
+    color: white;
+    border: solid 1px green;
+}
+
+.login-sign-in:hover{
+    transform: scaleX(1.01);
+}
+
+.login-create-acc, .login-create-acc:focus, .login-create-acc:active{
+    color: rgb(205, 29, 29);
+    border: solid 1px rgb(205, 29, 29);
+    padding: 1px 7px 3px 7px;
+}
+
+.login-create-acc:hover{
+    background-color: rgb(205, 29, 29);
+    color: white;
+    border: solid 1px rgb(205, 29, 29);
+}
+
+.login-error-msg{
+    color: red;
+    text-align: center;
+}
+
+.login .alert{
+    width: 368px;
+    margin: auto;
+}
+
+.login-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fullName{
+    display: flex;
+}
