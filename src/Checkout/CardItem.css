@@ -31,3 +31,8 @@
     color:white;
     background-color:rgb(205, 29, 29)
 }
+
+.cartItem-img{
+    min-height: 250px;
+    max-height: 350px;
+}

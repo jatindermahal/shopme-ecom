@@ -21,10 +21,12 @@
 .product img{
     margin-bottom: 20px;
     min-height: 250px;
-    max-height: 450px;
+    max-height: 350px;
 }
 
 .product .card-title{
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 

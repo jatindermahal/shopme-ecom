@@ -12,11 +12,13 @@ function CartItem({ item }) {
     });
   };
 
+  console.log(item)
+
   return (
     <div className="item container-fluid">
       <div className="row">
         <img
-          className="col-sm-4"
+          className="col-sm-4 cartItem-img"
           src={item.image}
           alt={`product-${item.id}`}
         ></img>

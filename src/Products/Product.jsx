@@ -25,7 +25,7 @@ function Product({ id, name, image, price, ratings }) {
       <div className="product card" style={{width: "18rem"}}>
 
         <div className="card-body">
-            <h5 className="card-title">{name}</h5>
+            <h5 className="card-title" title={name}>{name}</h5>
             <img className="card-img" src={image} alt={`product-${id}`}></img>
             <div className="card-text">
                 <p className="prod-price">
